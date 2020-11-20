@@ -1,4 +1,4 @@
---- !Config
+--- !Constant
 url: "https://www.meteo.pl/um/metco/mgram_pict.php"
 user_agent:
   mozilla: "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
