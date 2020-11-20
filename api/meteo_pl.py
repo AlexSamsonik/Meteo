@@ -4,16 +4,16 @@ from typing import Dict
 
 from requests import get
 
-from configuration.config import get_config
+from constants.constant import get_constants
 
 
 def get_image_by_bytes(params: Dict[str, str]):
     """Sends a GET request.
+    Url for GET request always provide by constant.
 
     :param params: Optional arguments that 'request' takes.
-    :return:
     """
-    return get(get_config().url, params=params).content
+    return get(get_constants().url, params=params).content
 
 
 def create_params(coordinate: Dict[str, str]) -> Dict[str, str]:
