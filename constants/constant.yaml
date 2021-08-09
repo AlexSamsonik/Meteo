@@ -2,8 +2,12 @@
 url: "https://www.meteo.pl/um/metco/mgram_pict.php"
 user_agent:
   mozilla: "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-  chrome: "Chrome/86.0.4240.198 Safari/537.36"
+  chrome: "Chrome/86.0.4240.198"
+  safari: "Safari/537.36"
 coordinate:
   grodno:
     col: 297
     row: 360
+  gdansk:
+    col: 210
+    row: 346
